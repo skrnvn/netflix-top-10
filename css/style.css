@@ -1,91 +1,154 @@
-html,
-body {
-    background: #141414;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-}
-
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container--expand {
-    width: 1430px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-h1 {
-    font-weight: 500;
-    font-size: 130px;
-    line-height: 120px;
-    color: #FFF7F6;
-    padding-top: 170px;
-}
-
-h1 span {
-    color: #C92D24;
-}
-
-header {
-    background-image: url(/img/header_bg.jpg);
-    margin: 100px 0;
-    min-height: 660px;
-}
-
-.blog-post {
-    margin-bottom: 100px;
-}
-
-.blog-post__content {
-    position: relative;
-}
-
-.blog-post__preview {
-    max-width: 1018px;
-}
-
-.blog-post__preview--right {
-    right: -95px;
-}
-
-.blog-post__preview--left {
-    left: -95px;
-}
-
-.blog-post__poster {
-    max-width: 288px;
-    position: absolute;
-    right: 0;
-    top: -120px;
-}
-
-.blog-post__desc {
-    width: 55%;
-    margin-top: 50px;
-    border-left: 1px solid #C92D24;
-    padding-left: 30px;
-}
-
-.blog-post__title {
-    font-size: 64px;
-    line-height: 70px;
-    margin-bottom: 20px;
-}
-
-.blog-post__info {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 50px;
-}
-
-.blog-post__text {
-    font-size: 18px;
-    line-height: 27px;
-    opacity: .9;
-}
+    html,
+    body {
+        background: #141414;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+    }
+    
+    .container {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container--expand {
+        width: 1430px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .container--align-right {
+        justify-content: flex-end;
+    }
+    
+    .container--align-left {
+        justify-content: flex-start;
+    }
+    
+    .container--align-center {
+        justify-content: center;
+    }
+    
+    h1 {
+        font-weight: 500;
+        font-size: 130px;
+        line-height: 120px;
+        color: #FFF7F6;
+        padding-top: 170px;
+    }
+    
+    h1 span {
+        color: #C92D24;
+    }
+    
+    header {
+        background-image: url(/img/header_bg.jpg);
+        margin: 100px 0;
+        min-height: 660px;
+    }
+    
+    .blog-post {
+        margin-bottom: 100px;
+    }
+    
+    .blog-post--fixed {
+        margin-bottom: -110px;
+    }
+    
+    .blog-post__content {
+        position: relative;
+    }
+    
+    .blog-post__content--fixed {
+        height: 230px;
+    }
+    
+    .blog-post__preview {
+        max-width: 1018px;
+    }
+    
+    .blog-post__preview--expand {
+        max-width: 1430px;
+    }
+    
+    .blog-post__preview--bg {
+        position: relative;
+    }
+    
+    .blog-post__poster {
+        max-width: 288px;
+        position: absolute;
+        top: -120px;
+    }
+    
+    .blog-post__poster--right {
+        right: 0;
+    }
+    
+    .blog-post__poster--left {
+        left: 8.9%;
+    }
+    
+    .blog-post__poster--fixed {
+        left: 0;
+    }
+    
+    .blog-post__desc {
+        width: 55%;
+        margin-left: 6.5%;
+        margin-top: 50px;
+        border-left: 1px solid #C92D24;
+        padding-left: 30px;
+    }
+    
+    .blog-post__desc--bottom {
+        width: 60%;
+        border-left: none;
+        border-bottom: 1px solid #C92D24;
+        margin-left: 8.9%;
+        padding: 0 0 30px 0;
+        position: relative;
+        top: -210px;
+    }
+    
+    .blog-post__desc--center {
+        margin-left: 500px;
+    }
+    
+    .blog-post__desc--fixed {
+        margin-left: 0;
+        width: 75%;
+        top: -550px;
+        border: none;
+    }
+    
+    .blog-post__title {
+        font-size: 64px;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .blog-post__info {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .blog-post__text {
+        font-size: 18px;
+        line-height: 27px;
+        opacity: .9;
+    }
+    
+    .blog-post__text--fixed {
+        margin-top: 200px;
+    }
+    
+    footer {
+        margin-bottom: 150px;
+        background-image: url(/img/footer_bg.jpg);
+        min-height: 250px;
+        opacity: .5;
+    }
