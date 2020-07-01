@@ -1,0 +1,91 @@
+html,
+body {
+    background: #141414;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container--expand {
+    width: 1430px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 130px;
+    line-height: 120px;
+    color: #FFF7F6;
+    padding-top: 170px;
+}
+
+h1 span {
+    color: #C92D24;
+}
+
+header {
+    background-image: url(/img/header_bg.jpg);
+    margin: 100px 0;
+    min-height: 660px;
+}
+
+.blog-post {
+    margin-bottom: 100px;
+}
+
+.blog-post__content {
+    position: relative;
+}
+
+.blog-post__preview {
+    max-width: 1018px;
+}
+
+.blog-post__preview--right {
+    right: -95px;
+}
+
+.blog-post__preview--left {
+    left: -95px;
+}
+
+.blog-post__poster {
+    max-width: 288px;
+    position: absolute;
+    right: 0;
+    top: -120px;
+}
+
+.blog-post__desc {
+    width: 55%;
+    margin-top: 50px;
+    border-left: 1px solid #C92D24;
+    padding-left: 30px;
+}
+
+.blog-post__title {
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.blog-post__info {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.blog-post__text {
+    font-size: 18px;
+    line-height: 27px;
+    opacity: .9;
+}
